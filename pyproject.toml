@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordcount"
+version = "1.0.0"
+description = "Count the words in one text file."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+wordcount = "wordcount:main"
+
+[tool.setuptools]
+py-modules = ["wordcount"]
+
+[tool.ruff]
+# The shipped target is Python 3.9+, so the rewrite rules that lock in 3.10+
+# syntax (UP045 and friends) are deliberately not selected.
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]

@@ -1,0 +1,7 @@
+# wordcount has no runtime dependencies: it is standard library only, and
+# runs on any Python 3.9+ with nothing installed.
+#
+#   python3 wordcount.py FILE
+#
+# The test runner lives in requirements-dev.txt so installing the tool never
+# pulls a test dependency.

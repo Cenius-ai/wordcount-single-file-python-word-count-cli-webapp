@@ -1,0 +1,14 @@
+# Byte-compiled and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment files (this tool reads no environment variables, but the
+# convention keeps a stray local .env out of the repo)
+.env
