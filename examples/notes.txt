@@ -1,0 +1,4 @@
+Release notes for the count utility.
+
+The quick brown fox jumps over the lazy dog.
+Ship it, then measure it; quiet tools compose best.

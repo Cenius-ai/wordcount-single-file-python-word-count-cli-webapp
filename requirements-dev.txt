@@ -1,0 +1,4 @@
+# Development-only dependencies for running the test suite.
+#   pip3 install -r requirements-dev.txt
+#   python3 -m pytest -q          (or: python3 -m unittest -v)
+pytest==8.3.4
