@@ -92,7 +92,7 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Architecture
 
-Folder layout: `examples/`. The setup script (`install.sh`) installs runtime dependencies and loads a starter dataset so the app is immediately usable. Built in Full-stack app (24 files). Installation walkthrough: [`INSTALL.md`](INSTALL.md).
+Folder layout: `examples/`. The setup script (`install.sh`) installs runtime dependencies and loads a starter dataset so the app is immediately usable. Built in Full-stack app (16 files). Installation walkthrough: [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
